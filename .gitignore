@@ -1,0 +1,68 @@
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+# compiled output
+/dist
+/tmp
+/out-tsc
+
+# dependencies
+node_modules
+
+# IDEs and editors
+/.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# misc
+/.sass-cache
+/connect.lock
+/coverage
+/libpeerconnection.log
+npm-debug.log
+yarn-error.log
+testem.log
+/typings
+
+# System Files
+.DS_Store
+Thumbs.db
+
+# nx
+**/*/.env.local
+.local.env
+
+# swc
+/.swc
+
+# cypress
+apps/**/cypress
+apps/**/cypress*.json
+
+apps/settings-e2e/test-results.xml
+apps/settings-e2e/results/my-test-output.xml
+
+
+# Snyk
+.dccache
+.nx/cache/**
+online_banking.iml
+.vs/online_banking/v17/.wsuo
+.vs/slnx.sqlite
+.vs/VSWorkspaceState.json
+.vs/slnx.sqlite
+.vs/online_banking/v17/.wsuo
+.vs/online_banking/FileContentIndex/a20cafd7-2bdc-4086-993e-078c51c62774.vsidx
+.vs/online_banking/FileContentIndex/121082de-0c97-4573-8abc-300ad5fdb2b8.vsidx
+
+.nx/cache
